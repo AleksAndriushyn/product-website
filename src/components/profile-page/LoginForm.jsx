@@ -11,8 +11,8 @@ const LoginForm = ({
 	setIsLoading,
 }) => {
 	const [credentials, setCredentials] = useState({
-		email: 'admin@test.com',
-		password: 'admin123',
+		email: '',
+		password: '',
 	});
 
 	const submitLogin = async (event) => {
